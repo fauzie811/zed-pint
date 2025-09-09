@@ -1,12 +1,12 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint;
+namespace Fauzara\Zed\Pint;
 
+use Fauzara\Zed\Pint\Contracts\ConfigInterface;
+use Fauzara\Zed\Pint\Contracts\EnvironmentInterface;
+use Fauzara\Zed\Pint\Contracts\ValidatorInterface;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Mpietrucha\Zed\Pint\Contracts\ConfigInterface;
-use Mpietrucha\Zed\Pint\Contracts\EnvironmentInterface;
-use Mpietrucha\Zed\Pint\Contracts\ValidatorInterface;
 
 class Validator implements ValidatorInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint\Filesystem;
+namespace Fauzara\Zed\Pint\Filesystem;
 
 abstract class Path
 {

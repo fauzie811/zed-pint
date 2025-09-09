@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint;
+namespace Fauzara\Zed\Pint;
 
-use Mpietrucha\Zed\Pint\Contracts\EnvironmentInterface;
-use Mpietrucha\Zed\Pint\Environment\Cwd;
-use Mpietrucha\Zed\Pint\Environment\File;
+use Fauzara\Zed\Pint\Contracts\EnvironmentInterface;
+use Fauzara\Zed\Pint\Environment\Cwd;
+use Fauzara\Zed\Pint\Environment\File;
 
 final class Environment implements EnvironmentInterface
 {

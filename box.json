@@ -1,11 +1,51 @@
 {
-    "directories": ["src", "vendor"],
+    "directories": ["src"],
     "files": ["composer.json"],
     "main": "zed-pint",
     "output": "bin/zed-pint",
     "compression": "GZ",
-    "exclude-composer-files": false,
-    "exclude-dev-files": false,
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": [
+                "tests",
+                "test",
+                "Tests",
+                "Test",
+                "docs",
+                "doc",
+                "examples",
+                "example",
+                "README*",
+                "CHANGELOG*",
+                "CONTRIBUTING*",
+                "LICENSE*",
+                "UPGRADE*",
+                "*.md",
+                "*.txt",
+                "*.rst",
+                "phpunit.xml*",
+                "composer.json",
+                "composer.lock",
+                ".git*",
+                ".travis*",
+                ".scrutinizer*",
+                ".php_cs*",
+                ".editorconfig"
+            ],
+            "in": "vendor"
+        }
+    ],
+    "blacklist": [
+        "vendor/symfony/console",
+        "vendor/symfony/finder",
+        "vendor/symfony/filesystem",
+        "vendor/symfony/string",
+        "vendor/nesbot/carbon",
+        "vendor/carbonphp/carbon-doctrine-types",
+        "vendor/doctrine/inflector",
+        "vendor/voku/portable-ascii"
+    ],
     "compactors": [
         "KevinGH\\Box\\Compactor\\Php",
         "KevinGH\\Box\\Compactor\\Json"

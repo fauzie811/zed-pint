@@ -1,8 +1,8 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint\Process;
+namespace Fauzara\Zed\Pint\Process;
 
-use Mpietrucha\Zed\Pint\Filesystem\File;
+use Fauzara\Zed\Pint\Filesystem\File;
 use Psr\Http\Message\StreamInterface;
 
 abstract class Input

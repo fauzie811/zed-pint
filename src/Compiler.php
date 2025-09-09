@@ -1,13 +1,13 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint;
+namespace Fauzara\Zed\Pint;
 
-use Mpietrucha\Zed\Pint\Contracts\ConfigInterface;
-use Mpietrucha\Zed\Pint\Contracts\EnvironmentInterface;
-use Mpietrucha\Zed\Pint\Contracts\ProcessInterface;
-use Mpietrucha\Zed\Pint\Contracts\ValidatorInterface;
-use Mpietrucha\Zed\Pint\Stream\Input;
-use Mpietrucha\Zed\Pint\Stream\Output;
+use Fauzara\Zed\Pint\Contracts\ConfigInterface;
+use Fauzara\Zed\Pint\Contracts\EnvironmentInterface;
+use Fauzara\Zed\Pint\Contracts\ProcessInterface;
+use Fauzara\Zed\Pint\Contracts\ValidatorInterface;
+use Fauzara\Zed\Pint\Stream\Input;
+use Fauzara\Zed\Pint\Stream\Output;
 use Psr\Http\Message\StreamInterface;
 
 final class Compiler

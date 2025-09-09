@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint\Process;
+namespace Fauzara\Zed\Pint\Process;
 
 use Psr\Http\Message\StreamInterface;
 

@@ -9,4 +9,4 @@ $autoload = array_filter([
 
 require_once end($autoload) ?: exit('Missing autoload');
 
-\Mpietrucha\Zed\Pint\Compiler::build()->emit();
+\Fauzara\Zed\Pint\Compiler::build()->emit();

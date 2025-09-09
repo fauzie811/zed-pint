@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint\Contracts;
+namespace Fauzara\Zed\Pint\Contracts;
 
 interface ValidatorInterface
 {

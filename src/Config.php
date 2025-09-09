@@ -1,11 +1,11 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint;
+namespace Fauzara\Zed\Pint;
 
+use Fauzara\Zed\Pint\Contracts\ConfigInterface;
+use Fauzara\Zed\Pint\Contracts\EnvironmentInterface;
+use Fauzara\Zed\Pint\Filesystem\File;
 use Illuminate\Support\Arr;
-use Mpietrucha\Zed\Pint\Contracts\ConfigInterface;
-use Mpietrucha\Zed\Pint\Contracts\EnvironmentInterface;
-use Mpietrucha\Zed\Pint\Filesystem\File;
 
 class Config implements ConfigInterface
 {

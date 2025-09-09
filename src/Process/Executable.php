@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint\Process;
+namespace Fauzara\Zed\Pint\Process;
 
-use Mpietrucha\Zed\Pint\Filesystem\File;
-use Mpietrucha\Zed\Pint\Filesystem\Path;
+use Fauzara\Zed\Pint\Filesystem\File;
+use Fauzara\Zed\Pint\Filesystem\Path;
 
 abstract class Executable
 {

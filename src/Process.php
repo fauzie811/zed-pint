@@ -1,12 +1,12 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint;
+namespace Fauzara\Zed\Pint;
 
-use Mpietrucha\Zed\Pint\Contracts\ConfigInterface;
-use Mpietrucha\Zed\Pint\Contracts\EnvironmentInterface;
-use Mpietrucha\Zed\Pint\Contracts\ProcessInterface;
-use Mpietrucha\Zed\Pint\Process\Command;
-use Mpietrucha\Zed\Pint\Process\Subprocess;
+use Fauzara\Zed\Pint\Contracts\ConfigInterface;
+use Fauzara\Zed\Pint\Contracts\EnvironmentInterface;
+use Fauzara\Zed\Pint\Contracts\ProcessInterface;
+use Fauzara\Zed\Pint\Process\Command;
+use Fauzara\Zed\Pint\Process\Subprocess;
 use Psr\Http\Message\StreamInterface;
 
 class Process implements ProcessInterface

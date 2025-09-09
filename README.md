@@ -5,7 +5,7 @@
 Require extension using [Composer](https://getcomposer.org):
 
 ```bash
-composer mpietrucha/zed-laravel-pint
+composer global require fauzara/zed-pint
 ```
 
 ## Usage

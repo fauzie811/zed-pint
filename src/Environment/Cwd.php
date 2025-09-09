@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpietrucha\Zed\Pint\Environment;
+namespace Fauzara\Zed\Pint\Environment;
 
 abstract class Cwd
 {
